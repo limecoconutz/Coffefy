@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,600&family=David+Libre:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&display=swap');
+
+
+
+html, body { 
+    height: fit-content;
+    width: fit-content;
+    background-color: #FFF5EE;
+    background-image:
+    url("img/largebackground.jpg");
+}
+
+#ul {
+    width: 100%;
+}
+
+ul li {
+    text-align:center;
+    font-weight: bold;
+    font-size: large;
+    display: inline-block;
+    padding: 2em;
+    font-family: 'David Libre', serif;  
+}
+
+nav{
+    position: fixed;
+    left: 70%;
+}
+
+.main {
+    background-color: #FFF5EE;
+}
+
+.banner{
+    font-family: 'Sansita Swashed', cursive ;
+    position: relative;
+}
+
+.title{
+    position: fixed;
+    top: 3%;
+    left: 10%;
+   font-size: 40px;
+   text-align: center;
+}
+
+#sub {
+    font-size: 25px;
+}
+
+#description {
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    font-size: 1em;
+   font-family:  'David Libre', serif;
+}
+.submission-form {
+    font-size: xx-large;
+    font-family:  'David Libre', serif;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+}
+
+.submission-form #username {
+    position: relative;
+    font-size: xx-large;
+    font-family:  'David Libre', serif;
+}
+
+.submission-form #submit {
+    font-family:  'David Libre', serif;
+    font-weight: 100;
+    background-color: #d3a67c; 
+    border: 15px, black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: xx-large;
+    position: fixed;
+    width: 350px;
+    top: 45%;
+    left: 50%;
+}
+.submission-form #submit:hover {
+    background-color: #d6d0cb; 
+}
+
+.submission-form #submit:click {
+    background-color: #0e0d0d; 
+    color: white;
+}
+
+footer {
+    font-weight: bold;
+    text-align: center;
+    font-family: 'David Libre', serif;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+}
+
+#simplified {
+    font-family:  'David Libre', serif;
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    position: fixed;
+    width: fit-content;
+    top: 65%;
+    left: 50%;
+}
+#logo {
+    position: fixed;
+    width: 200px;
+    top: 6%;
+    left: 5%;
+}
+
+.d-none{display:none!important}
+
+#result {
+    font-size: 40px;
+    border: 15px, black;
+}
